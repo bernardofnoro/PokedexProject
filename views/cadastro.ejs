@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <link rel="icon" type="img.png" href="https://cdn-icons-png.flaticon.com/128/1181/1181497.png">
+    <title>CADASTRO</title>
+</head>
+<body>
+    <section id="topbar">
+        <img id="logo" src="http://pa1.narvii.com/6332/7c6747057319d532c720fe79d1a440b2982150a1_00.gif" alt="pokebola logo">
+        <h1 id="titulo">POKEDEX ONLINE</h1>
+        
+   
+    
+        <nav id="menu">
+        <ul class="links">
+        
+            <li><a id="btn2" href="/">HOME</a></li>
+        </ul>
+        </nav>
+    </section>
+
+    <div  id="toptext">
+    <h1>VAMOS CADASTRAR UM POKEMON!</h1>
+    
+    <p>ADICIONE AS INFORMAÇÕES DO POKEMON</p>
+</div>
+    <section id="form">
+    
+    <form action="/novopokemon" method="POST">
+    <div>
+        <label for="numero">Numero do Pokemon:</label>
+        <input type="text" name="numero" id="input_numero" placeholder="DIGITE O NUMERO" required>
+    </div>
+    <div>
+        <label for="nome">Nome do Pokemon:</label>
+        <input type="text" name="nome" id="input_nome" placeholder="DIGITE O NOME" required>
+    </div>
+    <div>
+        <label for="tipo">Tipo do Pokemon:</label>
+        <input type="text" name="tipo" id="input_tipo" placeholder="DIGITE O TIPO" required>
+    </div>
+    <div>
+        <label for="image">Imagem do Pokemon:</label>
+        <input type="text" name="image" id="input_imagem" placeholder="URL DA IMAGEM" required>
+    </div>
+    <div>
+        <label for="descricao">Descreva o Pokemon:</label>
+        <input type="text" name="descricao" id="input_descricao" placeholder="DESCREVA O POKEMON" required>
+    </div>
+    <div>
+        <label for="altura">Altura do Pokemon:</label>
+        <input type="text" name="altura" id="input_altura" placeholder="DIGITE A ALTURA" required>
+    </div>
+    <div>
+        <label for="peso">Peso do Pokemon:</label>
+        <input type="text" name="peso" id="input_altura" placeholder="DIGITE O PESO" required>
+    </div>
+    <div>
+        <label for="categoria">Categoria:</label>
+        <input type="text" name="categoria" id="input_categoria" placeholder="DIGITE A CATEGORIA" required>
+    </div>
+    <div>
+        <label for="habilidade">Habilidade do Pokemon:</label>
+        <input type="text" name="habilidade" id="input_habilidade" placeholder="DIGITE A HABILIDADE" required>
+    </div>
+
+
+
+
+
+     <button id="botaoform" type="submit">REGISTRAR</button>
+    </section>
+
+    
+
+     <footer>Produzido por BERNARDO FREITAS @ BLUE EDTECH. Todos os direitos reservados! © </footer>
+</body>
+</html>

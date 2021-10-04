@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" type="img.png" href="https://cdn-icons-png.flaticon.com/128/1181/1181497.png">
+    <title>PROJETO POKEDEX</title>
+</head>
+<body>
+   
+
+    
+    <section id="topbar">
+        <img id="logo" src="http://pa1.narvii.com/6332/7c6747057319d532c720fe79d1a440b2982150a1_00.gif" alt="pokebola logo">
+        <h1 id="titulo">POKEDEX ONLINE</h1>
+        
+   
+    
+        <nav id="menu">
+        <ul class="links">
+            <li><a id="btn1" href="/cadastro">CADASTRAR NOVO POKEMON</a></li>
+            <li><a id="btn2" href="/">HOME</a></li>
+        </ul>
+        </nav>
+    </section>
+    
+    <% if(message != "") {  %>
+        <section id="message">
+            <p><%= message %></p> <span id="close">&times;</span>
+        </section>
+    <% }  %>
+
+        <h2>POKEMONS CADASTRADOS NA SUA POKEDEX:</h2>
+    <main class="grid">
+        <article>
+        <section id="pokecard">
+            <% pokedex.forEach((item, index)=> { %>
+                <a href="/detalhes/<%= index %>">
+                    <img src="<%= item.image %>" alt="">
+                    <h2>
+                        <%= item.nome %>
+                    </h2>
+                    <h4>
+                        <%= item.tipo %>
+                    </h4>
+                </a>
+                <% }) %>
+        </section>
+        </article>
+    </main>
+
+<script src="/js/script.js"></script>
+<footer>Produzido por BERNARDO FREITAS @ BLUE EDTECH. Todos os direitos reservados! © </footer>
+</body>
+</html>

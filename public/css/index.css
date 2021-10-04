@@ -1,0 +1,130 @@
+*{
+    background-color: rgb(141, 149, 255);
+}
+#logo{
+    background-color:rgb(141, 149, 255);
+    max-height: 60px;
+    text-align: center;
+    align-items: flex-start;
+}
+#titulo{
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(185, 27, 59);
+    border: black solid 2px;
+    display: grid;
+    
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#btn1{
+    display: flex;
+    border-radius: 60px 70px;
+    color: rgb(248, 60, 2);
+    background-color: darkblue;
+}
+#btn1:hover{
+    color: rgb(84, 246, 84);
+    background-color: black;
+}
+#btn2{
+    display: flex;
+    border-radius: 60px 70px;
+    color: rgb(248, 60, 2);
+    background-color: darkblue;
+}
+#btn2:hover{
+    color: rgb(84, 246, 84);
+    background-color: black;
+}
+#pokecard{
+    display:flex;
+    justify-content:space-evenly;
+    margin: 80px;
+    grid-gap: 30px;
+    align-items: center;
+  }
+  .grid > article {
+
+    border: none;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .grid > article:hover {
+    transform: translateY(5px);
+    box-shadow: 2px 2px 26px 0px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#message {
+    padding: 1.5rem;
+    background-color: rgb(254, 254, 255);
+    color: #11110f;
+    position: fixed;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  span#close {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  span#close:hover{
+    color: rgb(235, 13, 13);
+    transform: scale(1.5);
+  }
+
+footer{
+    position: absolute;
+}

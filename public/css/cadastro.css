@@ -1,0 +1,51 @@
+*{
+    background-color: rgb(141, 149, 255);
+}
+#logo{
+    background-color:rgb(141, 149, 255);
+    max-height: 60px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(185, 27, 59);
+    text-align: center;
+    
+}
+#toptext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botaoform{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 60px 70px;
+    color: rgb(248, 60, 2);
+    background-color: darkblue;
+}
+#botaoform:hover{
+    color: rgb(84, 246, 84);
+    background-color: black;
+}
+
+#btn2{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flexbox;
+    border-radius: 60px 70px;
+    color: rgb(248, 60, 2);
+    background-color: darkblue;
+}
+#btn2:hover{
+    color: rgb(84, 246, 84);
+    background-color: black;
+}
